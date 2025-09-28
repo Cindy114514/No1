@@ -1,7 +1,6 @@
 <template>
   <div id="app">
-    <div class="sidebar">
-      <router-view></router-view>
+    <div class="sidebar" style="float: left;">
       <router-link to="/home">
         <div class="lll">首页</div>
       </router-link>
@@ -12,7 +11,7 @@
         <div class="lll">个人</div>
       </router-link>
     </div>
-    <router-view to="/home1"></router-view>
+    <router-view style="padding-top: 50px;"></router-view>
   </div>
 </template>
 

@@ -1,6 +1,6 @@
 <template>
     <div>
-        <h1>Person</h1>
+        <h1>这是一个个人页面</h1>
     </div>
 </template>
 
