@@ -57,5 +57,9 @@ export default {
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
   margin: 15px 0;
   transition: all 0.3s ease;
+  transition: background-color 0.5s;
+}
+.lll:hover{
+  background-color: powderblue;
 }
 </style>
